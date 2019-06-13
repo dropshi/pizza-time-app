@@ -1,7 +1,6 @@
 import React from 'react';
 // Load in other views here
-//import Specials from './Specials';
-import OrderForm from './views/OrderForm';
+//import OrderForm from './views/OrderForm';
 import Specials from './views/Specials';
 
 
@@ -9,7 +8,6 @@ import Specials from './views/Specials';
 function App() {
   return (
     <div>
-    
       <OrderForm />
     </div>
   );
