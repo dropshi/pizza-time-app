@@ -1,20 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Load in other views here
+// import Specials from './Specials';
+import Signin from './signin';
+// import Signup from './signup';
 
+// Very simple layout for now; Eventually need to set up navigation
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Welcome to PizzaTime!!!
-        </p>
-        
-        <p>This is gonna be greater.. </p> grater..
-
-      </header>
-    </div>
+    <Signin />
   );
 }
 
