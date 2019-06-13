@@ -1,0 +1,13 @@
+.orderForm{
+    background-color: #345eb5;
+    padding: 10%;
+}
+
+.orderForm form{
+    background-color: #ffffff;
+    padding: 7.5%;
+}
+
+.orderForm input{
+    display: block;
+}
