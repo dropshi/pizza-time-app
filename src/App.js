@@ -1,7 +1,7 @@
 import React from 'react';
 // Load in other views here
 //import Specials from './Specials';
-import OrderForm from './OrderForm';
+import OrderForm from './views/OrderForm';
 
 
 // Very simple layout for now; Eventually need to set up navigation
