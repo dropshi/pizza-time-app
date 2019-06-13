@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  max-width: 600px;
   max-height: 900px;
   background-color: #345eb5;
   display: flex;
