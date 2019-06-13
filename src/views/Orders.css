@@ -24,9 +24,11 @@
 
 .ListItem{
   display: inline-grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 30% 20% 35% 15%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  margin: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: #fefefe;
   border: 5px solid #DF1B29;
   height: 160px;
@@ -35,14 +37,14 @@
 }
 .itemimg{
   grid-column: 1/1;
-  grid-row: 1/ span 5;
+  grid-row: 1/5;
   border-radius: 500px;
   margin: 0px;
   padding: 0px;
 }
 .cancelItem{
-  grid-column: 4/4;
-  grid-row: 5/5;
+  grid-column: 4;
+  grid-row: 5;
   margin: 0px;
   padding: 0px;
   background: #DF1B29;
@@ -50,18 +52,27 @@
   color: #fefefe;
 }
 .ItemCount{
-  grid-column: 4/4;
-  grid-row: 1/5;
-  padding: 1px;
-  margin: 5px;
+  grid-column: 4;
+  grid-row: 2;
+}
+.ListItem t4{
   border: 2px solid black;
   border-radius: 9px;
 }
 .ItemCost{
-  grid-column: 4/4;
-  grid-row: 2/5;
+  grid-column: 4;
+  grid-row: 1;
+  border: 1px solid blue;
 }
-p{
+.ListItem p{
+  grid-column: 2/4;
+  grid-row: 3/4; 
   clear: none;
   vertical-align: -5px;
+}
+.ListItem t3{
+  grid-column: 2/ span 3;
+  grid-row: 1;
+  color: #DF1B29;
+  font-size: 30px;
 }
