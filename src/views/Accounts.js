@@ -10,7 +10,7 @@ export default class Specials extends Component {
     render() {
 
         return (
-    <div className="Accounts" style={{backgroundColor: "#345eb5"}}>
+    <div >
       <header className="Accounts-header">
             Your account
       </header>

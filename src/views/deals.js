@@ -10,7 +10,7 @@ export default class Deals extends Component {
     render() {
 
         return (
-        <div className="App" style={{backgroundColor: "#345eb5"}}>
+        <div >
       <header className="App-header">
        <h1 style={{color:"black", border:"red 13px ridge",padding:"15px 25px", textAlign:"center", }}> Deals </h1>
           
