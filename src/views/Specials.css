@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  max-width: 600px;
   max-height: 900px;
   background-color: #345eb5;
   display: flex;
@@ -19,9 +18,5 @@
   justify-content: center;
   max-height: 92px;
   min-height: 10vh;
-  width: 600px;
-}
-#signin-link {
-  margin-left: 500px;
-  font-size: 18px;
+  width: 100vw;
 }
