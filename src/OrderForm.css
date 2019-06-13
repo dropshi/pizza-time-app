@@ -11,3 +11,7 @@
 .orderForm input{
     display: block;
 }
+
+.orderform label{
+    margin: 0.5em;
+}
