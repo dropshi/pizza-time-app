@@ -43,9 +43,9 @@ export default class Specials extends Component {
         <t7 class="cancelItem">X</t7>
       </div>
 
-      <div>
-        <t2>Proceed to checkout---</t2>
-        <t2>Total: 80.76</t2>
+      <div class="TotalBox">
+        <t2 class="checkout">Proceed to checkout</t2>
+        <t2 class="Total">Total: 80.76</t2>
       </div>
 
     </div>
